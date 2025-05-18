@@ -129,7 +129,7 @@ Simple OCR failed: tesseract is not installed or it's not in your PATH. See READ
 
 ## Extra Tips
 - If you want to see how the script prepares the image before reading it, run:
-- python handwritten_transcription.py --visualize
+- `python handwritten_transcription.py --visualize`
 - This will show pictures of the steps it takes to clean up the image.
 - The script works best with clear handwriting. If the text is too messy, it might not read it perfectly.
 
