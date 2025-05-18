@@ -55,7 +55,7 @@ This script uses the TrOCR model to transcribe handwritten text from images (e.g
    - Ensure Tesseract is in your system PATH. On Windows, you may need to add it manually (e.g., `C:\Program Files\Tesseract-OCR`).
 
 4. **Download the Script:**
-   - Save the `handwritten_transcription.py` script to your desired directory (e.g., `C:\Users\melis\OneDrive\Masaüstü\Handwritten Text` on Windows).
+   - Save the `handwritten_transcription.py` script to your desired directory (e.g., `C:\path\to\your\folder` on Windows).
 
 ## Usage
 1. **Prepare Your Image:**
@@ -65,7 +65,7 @@ This script uses the TrOCR model to transcribe handwritten text from images (e.g
 2. **Run the Script:**
    - Open a terminal in the directory containing the script:
      ```
-     cd C:\Users\melis\OneDrive\Masaüstü\Handwritten Text
+     cd C:\path\to\your\folder
      ```
    - Run the script:
      ```
@@ -102,8 +102,8 @@ This script uses the TrOCR model to transcribe handwritten text from images (e.g
 ```
 Using device: cpu
 Opening file picker to select an image...
-Selected file: C:/Users/melis/OneDrive/Masaüstü/doctor notes.jpg
-Attempting to process image: C:/Users/melis/OneDrive/Masaüstü/doctor notes.jpg
+Selected file:C:\path\to\your\folder/doctor notes.jpg
+Attempting to process image: C:\path\to\your\folder doctor notes.jpg
 Image file opened successfully with PIL.
 Attempting lightweight processing first...
 Using pytesseract for quick OCR...
